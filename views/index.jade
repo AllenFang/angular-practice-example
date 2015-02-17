@@ -1,0 +1,32 @@
+doctype html
+html(ng-app='myNgApp')
+  head
+    meta(http-equiv='content-type', content='text/html; charset=UTF-8')
+    | 
+    meta(charset='utf-8')
+    | 
+    title= title
+    | 
+    meta(name='generator', content='Bootply')
+    | 
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    | 
+    link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.min.css')
+    | 
+    script(src="/bower_components/jquery/dist/jquery.min.js")
+    | 
+    script(src="/bower_components/bootstrap/dist/js/bootstrap.min.js")
+    | 
+    script(src="/bower_components/angular/angular.min.js")
+    | 
+    script(src="/bower_components/angular-route/angular-route.min.js")
+    | 
+    script(src="/javascripts/app.js")
+    | 
+    script(src="/javascripts/controllers.js")
+    | 
+    script(src="/javascripts/directives.js")
+    | 
+    script(src="/javascripts/services.js")
+  body
+    div(ng-view)

@@ -1,0 +1,9 @@
+<div ng-repeat='example in data' 
+     ng-init="remainder= $index % columnSize; match= remainder == columnSize-1;">
+	<div class='row' ng-if='match' ng-init="rowData= data.slice($index-(columnSize-1), $index+1)">
+		<example-row row-data="{{rowData}}"></example-row>
+	</div>
+	<div class='row' ng-if='$last && !match' ng-init="rowData= data.slice($index-remainder, $index+1)">
+		<example-row row-data="{{rowData}}"></example-row>
+	</div>
+</div>

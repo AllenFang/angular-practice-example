@@ -1,0 +1,27 @@
+[
+	{
+		"key":"L1",
+		"name": "A customize HTML form directive implementation",
+		"description": "It'a sample for a login form directive implement. I use just try the ng-model in directive and perform a isolate scope '&' for calling back to Controller", 
+		"category": ["directive"], 
+		"images":[],
+		"url": "/examples/L1",
+		"localPath":"./public/examples/L1"
+	}, {
+		"key":"L2",
+		"name": "A Bootstrap List and Modal directives implementation",
+		"description": "I list some 'Comment' datas in Bootstrap list and encapsulate it as a directive. if click each item on the list, will open a Bootstrap modal. As before, I create a directive to perform the modal", 
+		"category": ["directive"], 
+		"images":["/images/L2/l2-1.jpg","/images/L2/l2-2.jpg"],
+		"url": "/examples/L2",
+		"localPath":"./public/examples/L1"
+	}, {
+		"key":"L3",
+		"name": "A BootStrap grid system directive implementation",
+		"description": "I create a directive to perform a 'Product' grid system with bootstrap. This directive can be assign value for How many column in one row, default is 3", 
+		"category": ["directive"], 
+		"images":["/images/L3/l3-1.jpg"],
+		"url": "/examples/L3",
+		"localPath":"./public/examples/L3"
+	}
+]

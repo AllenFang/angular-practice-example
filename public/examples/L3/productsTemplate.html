@@ -1,0 +1,9 @@
+<div ng-repeat='product in data' 
+     ng-init="remainder= $index % splitSize; match= remainder == splitSize-1;">
+	<div class='row' ng-if='match' ng-init="data= data.slice($index-(splitSize-1), $index+1)">
+		<product-row row-data="{{data}}"></product-row>
+	</div>
+	<div class='row' ng-if='$last && !match' ng-init="data= data.slice($index-remainder, $index+1)">
+		<product-row row-data="{{data}}"></product-row>
+	</div>
+</div>
