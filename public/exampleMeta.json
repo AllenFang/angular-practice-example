@@ -6,7 +6,7 @@
 		"category": ["directive"], 
 		"images":[],
 		"url": "/examples/L1",
-		"localPath":"./public/examples/L1"
+		"localPath":"public/examples/L1"
 	}, {
 		"key":"L2",
 		"name": "A Bootstrap List and Modal directives implementation",
@@ -14,7 +14,7 @@
 		"category": ["directive"], 
 		"images":["/images/L2/l2-1.jpg","/images/L2/l2-2.jpg"],
 		"url": "/examples/L2",
-		"localPath":"./public/examples/L1"
+		"localPath":"public/examples/L2"
 	}, {
 		"key":"L3",
 		"name": "A BootStrap grid system directive implementation",
@@ -22,6 +22,6 @@
 		"category": ["directive"], 
 		"images":["/images/L3/l3-1.jpg"],
 		"url": "/examples/L3",
-		"localPath":"./public/examples/L3"
+		"localPath":"public/examples/L3"
 	}
 ]
