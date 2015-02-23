@@ -4,13 +4,13 @@
 			<div class="panel-heading">
 		    	<h3 class="panel-title">{{example.name}}</h3>
 		  	</div>
-		  	<div class="panel-body">
+		  	<div class="panel-body" style="height: 350px; overflow-y: scroll">
 		    	{{example.description}}
 		    	<div ng-repeat="img in example.images">
 		    		<img src="{{img}}" width="287px" heigh"400px"/>
 		    	</div>
 		    	<br/>
-		    	<font style="color: blue">Source Code: {{example.localPath}}</font><br/>
+		    	<font style="color: #0066FF">Source Code: {{example.localPath}}</font><br/>
 		    	<a href="{{example.url}}" >live demo..</a>
 		  	</div>
 		</div>
