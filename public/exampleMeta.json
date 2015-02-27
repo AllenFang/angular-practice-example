@@ -23,5 +23,13 @@
 		"images":["/images/L3/l3-1.jpg"],
 		"url": "/examples/L3",
 		"localPath":"public/examples/L3"
+	}, {
+		"key":"L4",
+		"name": "A pagnation directive implementation",
+		"description": "I create a directive to perform a Bootstrap pagnation. You ca using pagination element and give it a ng-model attribute to set the current page and using ng-change to listen the page change.", 
+		"category": ["directive"], 
+		"images":["/images/L4/l4-1.png"],
+		"url": "/examples/L4",
+		"localPath":"public/examples/L4"
 	}
 ]

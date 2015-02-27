@@ -1,0 +1,17 @@
+<div>
+	<ul class="pagination">
+		<li ng-class="{disabled: !showFirst}">
+	      <a href="#" ng-click="selectPage(1)">
+	        First
+	      </a>
+	    </li>
+	    <li ng-repeat="page in pages" ng-class="{active: page.active}">
+	    	<a href="#" ng-click="selectPage(page.text)">{{page.text}}</a>
+	    </li>
+	    <li ng-class="{disabled: !showLast}">
+	      <a href="#" ng-click="selectPage(totalPages)">
+	        Last
+	      </a>
+	    </li>
+	</ul>
+</div>
