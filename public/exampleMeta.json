@@ -26,10 +26,18 @@
 	}, {
 		"key":"L4",
 		"name": "A pagnation directive implementation",
-		"description": "I create a directive to perform a Bootstrap pagnation. You ca using pagination element and give it a ng-model attribute to set the current page and using ng-change to listen the page change.", 
+		"description": "I create a directive to perform a Bootstrap pagnation. You can using pagination element and give it a ng-model attribute to set the current page and using ng-change to listen the page change.", 
 		"category": ["directive"], 
 		"images":["/images/L4/l4-1.png"],
 		"url": "/examples/L4",
 		"localPath":"public/examples/L4"
+	}, {
+		"key":"L5",
+		"name": "A AngularJS Controller Testing with Karma and Jasmine",
+		"description": "I create a simple Controller and using Karma and Jasmine to test the controller. You can use 'node_modules/karma-cli/bin/karma start public/examples/L5/qa/karma.conf.js' to run lanuch a Karma test.", 
+		"category": ["test"], 
+		"images":["/images/L5/l5-1.png"],
+		"url": "/examples/L5",
+		"localPath":"public/examples/L5"
 	}
 ]
