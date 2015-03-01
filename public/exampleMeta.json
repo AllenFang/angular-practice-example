@@ -39,5 +39,13 @@
 		"images":["/images/L5/l5-1.png"],
 		"url": "/examples/L5",
 		"localPath":"public/examples/L5"
+	}, {
+		"key":"L6",
+		"name": "L6: A AngularJS dropDown directive implementation",
+		"description": "I create a directive to perform a Bootstrap dropdown. Same as L4, You must give it a ng-model which means the current selection in this dropdown. Click live demo to see how to use.", 
+		"category": ["directive"], 
+		"images":["/images/L6/l6-1.png","/images/L6/l6-2.png","/images/L6/l6-3.png","/images/L6/l6-4.png"],
+		"url": "/examples/L6",
+		"localPath":"public/examples/L6"
 	}
 ]
