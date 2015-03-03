@@ -47,5 +47,13 @@
 		"images":["/images/L6/l6-1.png","/images/L6/l6-2.png","/images/L6/l6-3.png","/images/L6/l6-4.png"],
 		"url": "/examples/L6",
 		"localPath":"public/examples/L6"
+	}, {
+		"key":"L7",
+		"name": "A AngularJS Service Testing with Karma and Jasmine",
+		"description": "I create a simple Controller & Service and use Karma and Jasmine to test the service. You can use 'node_modules/karma-cli/bin/karma start public/examples/L7/qa/karma.conf.js' to run lanuch a Karma test.", 
+		"category": ["test"], 
+		"images":["/images/L7/l7-1.png"],
+		"url": "/examples/L7",
+		"localPath":"public/examples/L7"
 	}
 ]

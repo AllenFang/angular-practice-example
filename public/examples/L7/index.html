@@ -1,0 +1,21 @@
+<html ng-app="demoApp">
+	<head>
+		<title>L7</title>
+		<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+		<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="/bower_components/angular/angular.min.js"></script>
+		<script src="./js/app.js"></script>
+	</head>
+	<body>
+		<h1>L5: A AngularJS Service Testing with Karma and Jasmine</h1>
+		<div ng-controller="SampleCtrl">
+              Name:<input type="text" ng-model="name"/>
+              <br/><button ng-click="echo()">Echo</button>
+         </div>
+        <h3>
+        	You can use following instruction to lanuch a Karma test.
+        </h3>
+        <pre style="background-color: black; border-radius: 4px; border: 1px solid rgb(204, 204, 204); box-sizing: border-box; color: white; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; font-size: 13px; line-height: 1.42857; margin-bottom: 10px; padding: 9.5px; white-space: pre-wrap; word-break: break-all; word-wrap: break-word;"><span class="nv" style="box-sizing: border-box; color: white;">$ </span>cd angular-practice-example<br/><span class="nv" style="box-sizing: border-box; color: white;">$ </span>node_modules/karma/bin/karma start public/examples/L7/qa/karma.conf.js</pre>
+	</body>
+</html>
