@@ -3,3 +3,9 @@ node_js:
   - "0.10.25"
 env:
   - NODE_ENV=travis
+before_install:
+  - sudo npm install bower -g
+script:
+  - bower install
+after_success:
+  - git push git@heroku.com:frozen-tundra-7264.git
