@@ -5,7 +5,7 @@ env:
   - NODE_ENV=travis
 before_install:
   - sudo npm install bower -g
-  - sudo bower install
+  - bower install
   - sudo chown -R $(whoami) /home/shippable/.npm
 after_success:
   - git push git@heroku.com:frozen-tundra-7264.git
