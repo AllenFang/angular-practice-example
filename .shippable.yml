@@ -5,6 +5,7 @@ env:
   - NODE_ENV=travis
 before_install:
   - sudo npm install bower -g
+  - sudo chown -R $(whoami) /home/shippable/.npm
 script:
   - bower install
 after_success:
