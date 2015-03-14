@@ -1,0 +1,76 @@
+<html ng-app="demoApp">
+	<head>
+		<title>bsDropdown demo</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+		<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+		<script src="js/bsDropdown.min.js"></script>
+		<script src="js/app.js"></script>
+	</head>
+	<body>
+		<div class="col-md-offset-0 col-md-3">
+	        <div class="panel panel-default">
+				<div class="panel-heading">A basic function demo for bsDropdown.</div>
+				<div class="panel-body" ng-controller="YearController">
+			    	<p>You select {{selectYear}} ....</p>
+					<div bs-dropdown 
+					     bs-dropdown-display="MyDropDown" 
+						 bs-dropdown-items="years" 
+						 ng-model="selectYear" 
+						 ng-change="changeYear()"></div>
+				</div>
+			</div>
+	        <div class="panel panel-default">
+				<div class="panel-heading">A divider demo for bsDropdown.</div>
+		        <div class="panel-body" ng-controller="DividerController">
+					<div bs-dropdown 
+					     bs-dropdown-display="MyDropDown" 
+						 bs-dropdown-items="actions" 
+						 bs-dropdown-divider="{{[2,5]}}" 
+						 ng-model="selectAction"></div>
+		        </div>
+		    </div>
+		    <div class="panel panel-default">
+				<div class="panel-heading">A disabled items demo for bsDropdown.</div>
+		        <div class="panel-body" ng-controller="DividerController">
+					<div bs-dropdown 
+					     bs-dropdown-display="MyDropDown" 
+						 bs-dropdown-items="actions" 
+						 bs-dropdown-item-disabled="{{[2,5]}}" 
+						 ng-model="selectAction"></div>
+		        </div>
+		    </div>
+		    <div class="panel panel-default">
+				<div class="panel-heading">A disabled dropdown demo for bsDropdown.</div>
+		        <div class="panel-body" ng-controller="DividerController">
+					<div bs-dropdown 
+						 bs-dropdown-disabled="true" 
+					     bs-dropdown-display="DisabledDropDown" 
+						 bs-dropdown-items="actions" 
+						 ng-model="selectAction"></div>
+		        </div>
+		    </div>
+	    </div>
+        <h2>Tutorial</h2>
+        <pre style="background-color: #BBBBBB; border-radius: 4px; border: 1px solid rgb(204, 204, 204); box-sizing: border-box; color: black; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; font-size: 13px; line-height: 1.42857; margin-bottom: 10px; padding: 9.5px; white-space: pre-wrap; word-break: break-all; word-wrap: break-word;"><span class="nv" style="box-sizing: border-box; color: black;">
+
+        1. Use bs-dropdown-display attribute in bsDropdown to specify the default text on dropdown
+
+        2. Use bs-dropdown-items(required) attribute in bsDropdown to specify the options you want to display in dropdown
+
+        3. Use ng-model(required) attribute in bsDropdown to specify the current selected option in dropndown.<br/> 
+           If no data you want to select on doopwodn default, you can give null value.<br/> 
+           For example, you can modify $scope.selectYear = null; in YearController in this example.
+
+        4. Use ng-change to listen a change event on bsDropdown.<br/> 
+
+        5. Use bs-dropdown-divider to specify the divider, for example bs-dropdown-divider="{{[2,5]}}".<br/>  
+
+        6. Use bs-dropdown-item-disabled to specify which option should be disabled,<br/>
+           for example bs-dropdown-item-disabled="{{[2,5]}}".<br/>  
+
+        7. Use bs-dropdown-disabled to set bsDropdown disabled, for example bs-dropdown-disabled="true".<br/>  
+        </pre>
+	</body>
+</html>

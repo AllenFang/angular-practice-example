@@ -55,5 +55,13 @@
 		"images":["/images/L7/l7-1.png"],
 		"url": "/examples/L7",
 		"localPath":"public/examples/L7"
+	}, {
+		"key":"L8",
+		"name": "bsDropdown demo",
+		"description": "It's an angular directive for bootstrap dropdown.See https://github.com/AllenFang/angular-bootstrap-dropdown", 
+		"category": ["directive"], 
+		"images":["/images/L8/l8-1.png"],
+		"url": "/examples/L8",
+		"localPath":"public/examples/L8"
 	}
 ]
